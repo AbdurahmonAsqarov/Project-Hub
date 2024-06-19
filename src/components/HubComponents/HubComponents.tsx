@@ -15,6 +15,7 @@ const HubComponents = () => {
       </div>  
       <div className="navbar absolute bottom-0 left-[50%] max-md:left-[63%] translate-x-[-65%] max-md:translate-none">
           <Navbar />
+          <h1>asdfasfas</h1>
       </div>  
     </>    
   )
