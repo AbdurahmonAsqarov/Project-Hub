@@ -1,7 +1,10 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import { Home } from "./page/Home"
-import { RouterLayout } from "./Layout/RouterLayout"
+// import context 
 import { UserContext } from "./context/Context"
+// import home page
+import { Home } from "./page/Home/Home"
+// import layout 
+import { RouterLayout } from "./Layout/RouterLayout"
 
 const App = () => {
   const router = createBrowserRouter([
